@@ -21,8 +21,7 @@ app.get("/", (req, res) => {
     console.log(req.query)
 
     //Response
-    res.send("KONNICHIWA! \
-    IG21_220064")
+    res.send("KONNICHIWA! IG21_220064!!")
 })
 
 //Listen
