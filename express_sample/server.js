@@ -23,3 +23,10 @@ app.get("/", (req, res) => {
     //Response
     res.send("KONNICHIWA!")
 })
+
+//Listen
+app.listen(PORT_NUMBER, HOST_NAME, () => {
+    console.log(HOST_NAME)
+    console.log(PORT_NUMBER)
+    console.log("Standing by...")
+})
