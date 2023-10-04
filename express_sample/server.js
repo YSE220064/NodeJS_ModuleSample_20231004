@@ -21,7 +21,8 @@ app.get("/", (req, res) => {
     console.log(req.query)
 
     //Response
-    res.send("KONNICHIWA!")
+    res.send("KONNICHIWA! \
+    IG21_220064")
 })
 
 //Listen
@@ -30,3 +31,6 @@ app.listen(PORT_NUMBER, HOST_NAME, () => {
     console.log(PORT_NUMBER)
     console.log("Standing by...")
 })
+
+//To Start; node server
+//To End; ctrl + c
